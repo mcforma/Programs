@@ -1,0 +1,27 @@
+PasswordGreat! - Password not accepted.
+Password string must have exactly two digits as characters.
+
+Passw0rD$2great - Password Accepted
+
+pswd12GR - Password not accepted.
+Password string must have at least 12 characters.
+Password string must have exactly one special characters.
+
+12password! - Password not accepted.
+Password string must have at least 12 characters.
+Password string must have exactly two upper case characters.
+
+1234567890 - Password not accepted.
+Password string must have at least 12 characters.
+Password string must have exactly two upper case characters.
+Password string must have exactly two digits as characters.
+Password string must have exactly one special characters.
+Once all Password requirements have been met by Password string, Password string's remaining characters must be lower case letters only.
+
+G00dpasss%wD - Password Accepted
+
+Gr8Password - Password not accepted.
+Password string must have at least 12 characters.
+Password string must have exactly two digits as characters.
+Password string must have exactly one special characters.
+

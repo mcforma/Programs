@@ -1,0 +1,1 @@
+Average from numbers from decimals.txt: 4.95

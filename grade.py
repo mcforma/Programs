@@ -1,0 +1,30 @@
+# grade.py
+# Calculating the letter grade from the point grade
+
+'''
+If gradepoint greater than or equal to 90 its an A
+If gradepoint greater than or equal to 80 its an B
+If gradepoint greater than or equal to 70 its an C
+If gradepoint greater than or equal to 60 its an D
+Otherwise F
+'''
+
+def main():
+    grade_point = float(input("Please enter the point grade of the student: "))
+
+    if grade_point >= 90:
+        grade_ltr = "A"
+    elif grade_point >= 80:
+        grade_ltr = "B"
+    elif grade_point >= 70:
+        grade_ltr = "C"
+    elif grade_point >= 60:
+        grade_ltr = "D"
+    else:
+        grade_ltr = "F"
+
+    print(f"The grade for {grade_point} is {grade_ltr}")
+
+main()
+        
+    
