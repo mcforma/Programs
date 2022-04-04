@@ -106,7 +106,7 @@ def mSReplace(original_string, old_substring, replacement_strng):
         return original_string 
 
     else: # else (if find() does not return -1)
-        first_i += len(old_substring) + newString.find(old_substring) # In the Mississippi example: first iindex (2) + the length of the old substring (2) + the new string's index of the first 
+        first_i += len(old_substring) + newString.find(old_substring) # In the Mississippi example: first index (2) + the length of the old substring (2) + the new string's index of the first 
         # occurrence of the substring (1) is assigned to first index (5)
         last_i = first_i + len(old_substring) # The first index (5) + the length of the old substring (2) = 7
 
